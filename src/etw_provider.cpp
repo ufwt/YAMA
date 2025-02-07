@@ -1,5 +1,6 @@
 #include "etw_provider.h"
 
+
 namespace yama {
 
 bool IsGuidInEtwProviders(const GUID& guid) {
