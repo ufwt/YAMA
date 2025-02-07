@@ -107,7 +107,7 @@ jobs:
         .\build\Yama.exe -V
 
     - name: Archive build results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.config.pe }}
         path: .\build\Yama.exe
